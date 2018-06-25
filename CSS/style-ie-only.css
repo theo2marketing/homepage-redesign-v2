@@ -1,0 +1,10 @@
+
+.navbar-toggler {
+    cursor: pointer;
+	position: absolute!important;
+	right: 10px;
+	top: 20px;
+}
+.nav-link {
+    font-weight: normal;
+}

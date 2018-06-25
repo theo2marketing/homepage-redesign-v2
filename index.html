@@ -1,0 +1,822 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<title>The O2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="robots" content="noindex, nofollow">
+	<link rel="shortcut icon" href="assets/favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- Fontawesome icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- O2 custom CSS -->
+    <link rel="stylesheet" type="text/css" href="CSS/style-o2custom.css">
+	
+	<!--[if IE]>
+	  <link rel="stylesheet" type="text/css" href="style-ie-only.css" />
+	<![endif]-->
+    
+    <!-- O2 custom JS -->
+	<script>
+		function resizeLogoOnScroll() {
+		  const distanceY = window.pageYOffset || document.documentElement.scrollTop,
+		  shrinkOn = 200,
+		  Navbar = document.getElementById('navbar');
+		  
+		  if (distanceY > shrinkOn) {
+			Navbar.classList.add("shrink");
+		  } else {
+			Navbar.classList.remove("shrink");
+		  }
+		}
+
+		window.addEventListener('scroll', resizeLogoOnScroll);
+	</script>
+  </head>
+  <body>
+    
+     <!--Start navbar-->
+      	<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-primary" id="navbar">
+		  
+          <a class="navbar-brand" href="http://www.theo2.co.uk"><img src="https://www.theo2.co.uk/assets/production/a1512200b2/images/logo-nobg.png?1453394416" id="logo" /></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+			  <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="https://www.theo2.co.uk/events" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Events
+                </a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://www.theo2.co.uk/events/venue/the-o2-arena">The O2 arena</a>
+                  <a class="dropdown-item" href="https://www.theo2.co.uk/do-more-at-the-o2/indigo-at-the-o2">Indigo at The O2</a>
+                  <a class="dropdown-item last" href="https://www.theo2.co.uk/do-more-at-the-o2/building-six">Building Six</a>
+                  </div>
+			  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="https://www.theo2.co.uk/do-more-at-the-o2" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Do More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://www.theo2.co.uk/do-more-at-the-o2/sky-studios">Sky Studios</a>
+                  <a class="dropdown-item" href="https://www.theo2.co.uk/do-more-at-the-o2/cineworld/movie-listings">Cineworld</a>
+                  <a class="dropdown-item" href="https://www.theo2.co.uk/do-more-at-the-o2/hollywood-bowl">Hollywood Bowl</a>
+                  <a class="dropdown-item" href="https://www.theo2.co.uk/do-more-at-the-o2/nissan-innovation-station">Nissan Innovation Station</a>
+                  <a class="dropdown-item" href="https://www.theo2.co.uk/do-more-at-the-o2/dc-exhibition-dawn-of-super-heroes-1">DC Exhibition: Dawn Of Super Heroes</a>
+                  <a class="dropdown-item" href="https://www.theo2.co.uk/do-more-at-the-o2/restaurants-and-bars">Restaurants and bars</a>
+                  <a class="dropdown-item last" href="https://www.theo2.co.uk/do-more-at-the-o2/sky-backstage">Sky Backstage</a>
+                </div>
+              </li>
+			  <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Climb The O2
+                </a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item last" href="#">Up at The O2</a>
+				</div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Shopping
+                </a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item last" href="#">Icon Designer Outlet</a>
+				</div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  The VIP Experience
+                </a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="#">The Amazon Deck</a>
+				  <a class="dropdown-item" href="#">The Amazon Lounge</a>
+                  <a class="dropdown-item last" href="#">Suites &amp; Membership</a>
+				</div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="https://www.theo2.co.uk/visit-us" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Info
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://www.theo2.co.uk/visit-us/getting-to-the-o2">Getting to The O2</a>
+                  <a class="dropdown-item" href="https://www.theo2.co.uk/visit-us/accessibility">Accessibility</a>
+                  <a class="dropdown-item" href="https://www.theo2.co.uk/visit-us/useful-information">Useful Information</a>
+                  <a class="dropdown-item" href="https://www.theo2.co.uk/visit-us/maps">Maps</a>
+                  <a class="dropdown-item" href="https://www.theo2.co.uk/visit-us/parking">Parking</a>
+                  <a class="dropdown-item" href="https://www.theo2.co.uk/visit-us/where-to-stay">Where to stay</a>
+                  <a class="dropdown-item" href="https://www.theo2.co.uk/visit-us/security">Safe and sound</a>
+                  <a class="dropdown-item" href="https://www.theo2.co.uk/visit-us/level-1">Level 1</a>
+                  <a class="dropdown-item last" href="https://www.theo2.co.uk/faqs">FAQs</a>
+                </div>
+              </li>
+			  <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle priority" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="assets/priority-logo.png" alt="O2 Priority" />
+                </a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Priority Tickets</a>
+				  <a class="dropdown-item last" href="#">Priority Offers</a>
+				</div>
+              </li>  
+            </ul>			
+            <ul class="nav navbar-nav navbar-right social" id="navsocial">
+                <li><a href="https://www.facebook.com/TheO2" target="_blank"><i class="fa fa-camera-retro fa-lg"></i></a></li>
+                <li><a href="https://twitter.com/TheO2" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+                <li><a href="https://www.instagram.com/theo2london" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+				<li><a href="https://www.theo2.co.uk/visit-us/the-o2-app" target="_blank" class="fa app"><i class="fa fa-mobile" aria-hidden="true"></i><span>The O2 app</span></a></li>
+            </ul>
+			<form class="form-inline my-2 my-lg-0 navsearch">
+			  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			</form>
+          </div>
+		  <button type="button" class="btn btn-info newsletter_tab" data-toggle="collapse" data-target="#hidden">Get the newsletter</button>
+        </nav>
+    <!--end navbar-->
+	
+	<!--hidden div-->
+	  <div id="hidden" class="container-fluid collapse">
+		<div class="row">
+			<div class="col-md-12">
+				<h3><span>Join</span> The O2 mailing list</h3>
+				Sign up to our newsletter and jump to the front of the queue. Get access to exclusive pre-sale tickets, plus we'll give you the heads up on events we know you'll enjoy.
+				<br /><br />
+				You can register via Facebook or by filling in our form.<br />
+				
+				<form id="nl_form" class="collapse">
+				  <div class="form-group">
+					<input type="text" class="form-control" aria-describedby="emailHelp" placeholder="First name">
+					<input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Last name">
+					<input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email address">
+					<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">I would like The O2 to send me information by email, social media or push message about the latest events, information and offers.</label>	
+					<small class="form-text text-muted">For more information about how we use your personal data, please see our <a href="">Privacy Policy</a>.</small>
+				  </div>
+				</form>
+				
+				<!--a href="#" class="fb_signup"><img src="assets/fb_button.jpg" alt="Sign up with Facebook" /></a-->
+				<a href="#" class="tab_book form_signup" data-toggle="collapse" data-target="#nl_form">Sign up with Facebook</a>
+				<a href="#" class="tab_link form_signup" data-toggle="collapse" data-target="#nl_form">Skip</a>
+			</div>
+		</div>
+	  </div>
+	<!-- end hidden div-->
+    
+	<!-- full width carousel-->
+    <div class="hero">
+      	<div id="carousel_hero" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel_hero" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel_hero" data-slide-to="1"></li>
+            <li data-target="#carousel_hero" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <a class="carousel-item active" href="#">
+              <img class="d-block w-100 desktop" src="http://via.placeholder.com/1280x450" alt="First slide">
+              <img class="d-block w-100 mob" src="http://via.placeholder.com/480x281" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h2><span>Event Name One</span></h2>
+                <p><span>Day Month Year</span></p>
+              </div><!--end carousel caption-->
+            </a><!--end carousel item-->
+            <a class="carousel-item" href="#">
+              <img class="d-block w-100 desktop" src="http://via.placeholder.com/1280x450" alt="Second slide">
+               <img class="d-block w-100 mob" src="http://via.placeholder.com/480x281" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h2><span>Event Name Two</span></h2>
+                <p><span>Day Month Year</span></p>
+              </div><!--end carousel caption-->
+            </a><!--end carousel item-->
+            <a class="carousel-item" href="#">
+              <img class="d-block w-100 desktop" src="http://via.placeholder.com/1280x450" alt="Third slide">
+               <img class="d-block w-100 mob" src="http://via.placeholder.com/480x281" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h2><span>Event Name Three</span></h2>
+                <p><span>Day Month Year</span></p>
+              </div><!--end carousel caption-->
+            </a><!--end carousel item-->
+          </div><!--end carousel inner-->
+          <a class="carousel-control-prev" href="#carousel_hero" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel_hero" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </div><!--end container hero-->
+	<!-- end full width carousel-->
+	
+	<!--events row 1-->
+	<div class="container-fluid">
+			<div class="container events">
+				  <div class="row">
+					<div class="col-md-12 header">
+						<h2><span>Coming up</span> at The O2</h2>
+					</div>
+					<div class="col-md-4 one">
+						<img src="http://via.placeholder.com/480x281" alt="Event Name tickets" class="desktop" width="100%" /><img src="http://via.placeholder.com/215x215" alt="Event Name tickets" class="mobile" width="100%" />
+						<div class="event-info">
+							<h4 class="date">Day Month Year</h4>
+							<h3><a href="#">Event Name</a></h3>
+							<span class="venue">The O2 arena</span>
+							<a href="#" target="_blank" class="tickets">Buy tickets</a>
+							<a href="#" target="_blank" class="moreinfo"><span>More info</span></a>
+						</div>
+					</div><!--end col-->
+					<div class="col-md-4 two">
+						<img src="http://via.placeholder.com/480x281" alt="Event Name tickets" class="desktop" width="100%" /><img src="http://via.placeholder.com/215x215" alt="Event Name tickets" class="mobile" width="100%" />
+						<div class="event-info">
+							<h4 class="date">Day Month Year</h4>
+							<h3><a href="#">Event Name</a></h3>
+							<span class="venue">The O2 arena</span>
+							<a href="#" target="_blank" class="tickets">Buy tickets</a>
+							<a href="#" target="_blank" class="moreinfo"><span>More info</span></a>
+						</div>
+					</div><!--end col-->
+					<div class="col-md-4 three">
+						<img src="http://via.placeholder.com/480x281" alt="Event Name tickets" class="desktop" width="100%" /><img src="http://via.placeholder.com/215x215" alt="Event Name tickets" class="mobile" width="100%" />
+						<div class="event-info">
+							<h4 class="date">Day Month Year</h4>
+							<h3><a href="#">Event Name</a></h3>
+							<span class="venue">The O2 arena</span>
+							<a href="#" target="_blank" class="tickets">Buy tickets</a>
+							<a href="#" target="_blank" class="moreinfo"><span>More info</span></a>
+						</div>
+					</div><!--end col-->
+					<div class="col-md-4 four">
+						<img src="http://via.placeholder.com/480x281" alt="Event Name tickets" class="desktop" width="100%" /><img src="http://via.placeholder.com/215x215" alt="Event Name tickets" class="mobile" width="100%" />
+						<div class="event-info">
+							<h4 class="date">Day Month Year</h4>
+							<h3><a href="#">Event Name</a></h3>
+							<span class="venue">The O2 arena</span>
+							<a href="#" target="_blank" class="tickets">Buy tickets</a>
+							<a href="#" target="_blank" class="moreinfo"><span>More info</span></a>
+						</div>
+					</div><!--end col-->
+					<div class="col-md-4 five">
+						<img src="http://via.placeholder.com/480x281" alt="Event Name tickets" class="desktop" width="100%" /><img src="http://via.placeholder.com/215x215" alt="Event Name tickets" class="mobile" width="100%" />
+						<div class="event-info">
+							<h4 class="date">Day Month Year</h4>
+							<h3><a href="#">Event Name</a></h3>
+							<span class="venue">The O2 arena</span>
+							<a href="#" target="_blank" class="tickets">Buy tickets</a>
+							<a href="#" target="_blank" class="moreinfo"><span>More info</span></a>
+						</div>
+					</div><!--end col-->
+					<div class="col-md-4 six">
+						<img src="http://via.placeholder.com/480x281" alt="Event Name tickets" class="desktop" width="100%" /><img src="http://via.placeholder.com/215x215" alt="Event Name tickets" class="mobile" width="100%" />
+						<div class="event-info">
+							<h4 class="date">Day Month Year</h4>
+							<h3><a href="#">Event Name</a></h3>
+							<span class="venue">The O2 arena</span>
+							<a href="#" target="_blank" class="tickets">Buy tickets</a>
+							<a href="#" target="_blank" class="moreinfo"><span>More info</span></a>
+						</div>
+					</div><!--end col-->
+					
+					<!-- See all shows-->
+					<div class="col-md-12 load">
+						<a href="#" target="_blank" class="seeallshows tab_book">Load more</a>
+						<a href="#" target="_blank" class="seeallshows tab_link">See all shows</a>
+					</div><!--end see all shows-->
+					
+					<!-- Leaderboard-->
+					<div class="col-md-12 leaderboard">
+						<img src="http://via.placeholder.com/1120x300" alt="Leaderboard" width="100%" />
+					</div><!--end col-->
+					<!-- end leaderboard-->
+	
+					</div><!--end row-->
+			</div><!--end container events 1-->
+		</div><!--end container fluid-->
+		
+		<!-- Up at The O2 -->
+		<div class="container-fluid breakout tabs uato2">	
+				<div class="container">	
+					<ul class="nav nav-tabs">
+					  <li><img src="assets/uato2_logo.png" class="uplogo" alt="Up at The O2" width="100%" /><a data-toggle="tab" href="#tab_up" class="active"><span>Up</span> at The O2</a></li>
+					</ul>
+					<div class="tab-content">
+					  <div id="tab_up" class="tab-pane active">
+						 <div class="row">
+							<div class="col-md-5">
+								<a href=""><img src="assets/uato2.jpg" width="100%" /></a>
+							</div>
+							<div class="col-md-5">
+								<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+								</p>
+							</div>
+							<div class="col-md-2">
+								<img src="assets/up_kids_290x210.jpg" width="100%" />
+								<img src="assets/up_champagne_290x210.jpg" width="100%" />
+							</div>
+						</div>
+						<a href="https://tickets.aegeurope.com/upattheo2/climbs/original-climb.html" target="_blank" class="tab_book">Book now</a>
+						<a href="https://tickets.aegeurope.com/upattheo2/climbs.html" target="_blank" class="tab_link">Find out more</a>
+					  </div><!-- end tab 1: up  -->
+					</div><!-- end tab content parent -->		
+				</div>
+		</div>
+		<!-- end Up at The O2 -->
+					
+		<!--events row 2-->
+	<div class="container-fluid">
+			<div class="container events indigo">
+				  <div class="row">
+				  <div class="col-md-12 header">
+					<h2><span>indigo</span> at The O2</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+					<div class="col-md-6 one alt">
+						<img src="http://via.placeholder.com/480x281" alt="Event Name tickets" class="desktop" width="100%" /><img src="http://via.placeholder.com/215x215" alt="Event Name tickets" class="mobile" width="100%" />
+						<div class="event-info">
+							<h4 class="date">Day Month Year</h4>
+							<h3><a href="#">Event Name</a></h3>
+							<span class="venue">indigo at The O2</span>
+							<a href="#" target="_blank" class="tickets">Buy tickets</a>
+							<a href="#" target="_blank" class="moreinfo"><span>More info</span></a>
+						</div>
+					</div><!--end col-->
+					<div class="col-md-6 two alt">
+						<img src="http://via.placeholder.com/480x281" alt="Event Name tickets" class="desktop" width="100%" /><img src="http://via.placeholder.com/215x215" alt="Event Name tickets" class="mobile" width="100%" />
+						<div class="event-info">
+							<h4 class="date">Day Month Year</h4>
+							<h3><a href="#">Event Name</a></h3>
+							<span class="venue">indigo at The O2</span>
+							<a href="#" target="_blank" class="tickets">Buy tickets</a>
+							<a href="#" target="_blank" class="moreinfo"><span>More info</span></a>
+						</div>
+					</div><!--end col-->
+					<div class="col-md-6 three alt">
+						<img src="http://via.placeholder.com/480x281" alt="Event Name tickets" class="desktop" width="100%" /><img src="http://via.placeholder.com/215x215" alt="Event Name tickets" class="mobile" width="100%" />
+						<div class="event-info">
+							<h4 class="date">Day Month Year</h4>
+							<h3><a href="#">Event Name</a></h3>
+							<span class="venue">indigo at The O2</span>
+							<a href="#" target="_blank" class="tickets">Buy tickets</a>
+							<a href="#" target="_blank" class="moreinfo"><span>More info</span></a>
+						</div>
+					</div><!--end col-->
+					<div class="col-md-6 four alt">
+						<img src="http://via.placeholder.com/480x281" alt="Event Name tickets" class="desktop" width="100%" /><img src="http://via.placeholder.com/215x215" alt="Event Name tickets" class="mobile" width="100%" />
+						<div class="event-info">
+							<h4 class="date">Day Month Year</h4>
+							<h3><a href="#">Event Name</a></h3>
+							<span class="venue">indigo at The O2</span>
+							<a href="#" target="_blank" class="tickets">Buy tickets</a>
+							<a href="#" target="_blank" class="moreinfo"><span>More info</span></a>
+						</div>
+					</div><!--end col-->
+					
+					<!-- See all shows-->
+					<div class="col-md-12 load">
+						<a href="#" target="_blank" class="seeallshows tab_book">Load more</a>
+						<a href="#" target="_blank" class="seeallshows tab_link">See all shows</a>
+					</div>
+					<!--end see all shows-->
+					
+				</div><!--end row-->
+			</div><!--end container events 2-->
+	</div><!--end parent container fluid-->
+	
+			<!-- Do More Tabs -->
+		<div class="container-fluid breakout tabs">	
+				<div class="container">	
+					<ul class="nav nav-tabs">
+					  <li><a data-toggle="tab" href="#tab_todo" class="active">Things to do</a></li>		  
+					  <li><a data-toggle="tab" href="#tab_eat">Eat &amp; Drink</a></li>
+					  <li><a data-toggle="tab" href="#tab_exclusive">Exclusive Bars</a></li>
+					  <li><a data-toggle="tab" href="#tab_venues">Venue Hire</a></li>
+					</ul>
+					<div class="tab-content">
+					  <div id="tab_todo" class="tab-pane active">
+						<div class="row">
+							<div class="col-md-3">
+								<a href=""><img src="assets/hollywood-bowl.jpg" width="100%" /><h4>Hollywood Bowl</h4></a>
+							</div>
+							<div class="col-md-3">
+								<a href=""><img src="assets/sky-studios.jpg" width="100%" /><h4>Sky Studios</h4></a>
+							</div>
+							<div class="col-md-3">
+								<a href=""><img src="assets/cineworld.jpg" width="100%" /><h4>Cineworld</h4></a>
+							</div>
+							<div class="col-md-3">
+								<a href=""><img src="assets/dc-exhibition.jpg" width="100%" /><h4>DC Exhibition: Dawn Of Super Heroes</h4></a>
+							</div>
+						</div>
+						<a href="https://www.theo2.co.uk/do-more-at-the-o2" target="_blank" class="tab_link">See all activities</a>
+					  </div><!-- end tab 2: to do  -->
+					  <div id="tab_eat" class="tab-pane fade">
+						<div class="row">
+							<div class="col-md-3">
+								<a href=""><img src="assets/cabana.jpg" width="100%" /><h4>Cabana</h4></a>
+							</div>
+							<div class="col-md-3">
+								<a href=""><img src="assets/lasiguanas.jpg" width="100%" /><h4>Las Iguanas</h4></a>
+							</div>
+							<div class="col-md-3">
+								<a href=""><img src="assets/byron.jpg" width="100%" /><h4>Byron</h4></a>
+							</div>
+							<div class="col-md-3">
+								<a href=""><img src="assets/ask.jpg" width="100%" /><h4>Ask Italian</h4></a>
+							</div>
+						</div>
+						<a href="https://www.theo2.co.uk/do-more-at-the-o2/restaurants-and-bars" target="_blank" class="tab_link">See all bars &amp; restaurants</a>
+					  </div><!-- end tab 3: eat  -->		  
+					  <div id="tab_exclusive" class="tab-pane fade">
+						<div class="row">		
+							<div class="col-md-3">
+								<a href=""><img src="assets/amex.jpg" width="100%" /><h4>American Express Invites&reg; Lounge</h4></a>
+							</div>
+							<div class="col-md-3">
+								<a href=""><img src="assets/TheO2-lounge.jpg" width="100%" /><h4>O2 Lounge</h4></a>
+							</div>
+							<div class="col-md-3">
+								<a href=""><img src="assets/TheO2-blueroom.jpg" width="100%" /><h4>O2 Blueroom</h4></a>
+							</div>
+							<div class="col-md-3">
+								<a href=""><img src="assets/sky-backstage.jpg" width="100%" /><h4>Sky Backstage</h4></a>
+							</div>
+						</div>
+						<a href="https://www.theo2.co.uk/do-more-at-the-o2/restaurants-and-bars" target="_blank" class="tab_link">See all exclusive bars</a>
+					  </div><!-- end tab 4: exclusive bars  -->
+					  <div id="tab_venues" class="tab-pane fade">
+						<div class="row">
+							<div class="col-md-4">
+								<a href=""><img src="assets/arena.jpg" width="100%" /><h4>The O2 arena</h4></a>
+							</div>
+							<div class="col-md-4">
+								<a href=""><img src="assets/indigo.jpg" width="100%" /><h4>indigo at The O2</h4></a>
+							</div>
+							<div class="col-md-4">
+								<a href=""><img src="assets/buildingsix.jpg" width="100%" /><h4>Building Six</h4></a>
+							</div>
+						</div>
+						<a href="https://www.theo2.co.uk/hire-a-venue" target="_blank" class="tab_link">Find out more</a>
+					  </div><!-- end tab 5: venue hire  -->
+					</div><!-- end tab content parent -->		
+				</div>
+		</div>
+		<!-- end Do More Tabs -->
+		
+	<!-- Leaderboard 2-->
+			<div class="container">
+				  <div class="row">		
+					<div class="col-md-12 leaderboard">
+						<img src="http://via.placeholder.com/1120x300" alt="Leaderboard" width="100%" />
+					</div><!--end col-->
+			</div><!--end row-->
+		</div><!--end container-->
+	<!-- end leaderboard 2-->		
+	
+	<!-- Widget block -->
+	<div class="container-fluid widgets">	
+			<div class="container">				
+              	<div class="row">
+					<div class="col-sm-8">
+						<span>
+							<h4 class="twitter">Twitter #TheO2</h4>
+							<img src="assets/snipperwall.jpg" alt="" width="100%" />
+						</span>
+					</div>
+					<div class="col-sm-4">
+						<span>
+						<h4 class="instagram">Instagram</h4>
+						<img src="assets/instagram.jpg" alt="" width="100%" />
+						</span>
+					</div>
+					<div class="col-sm-4 app">	
+							<h4 class="mobile">The O2 app</h4>
+							<span>
+								<img src="assets/o2_smt_app_spotlight.png" class="appoverlay" />
+								<strong>With The O2 app you can:</strong>
+								<ul>
+									<li>Display your ticket on your phone</li>
+									<li>Pre-order merchandise</li>
+									<li>10% off first drinks with fast-track lane pick up</li>
+									<li>Snap up venue offers and enter prize draws</li>
+								</ul>
+								<a href="#" class="app_link ios"><img src="assets/appleapp_download-ios_white.png" /></a>
+								<a href="#" class="app_link android"><img src="assets/app_download-android_white.png" /></a> 
+						</span>
+					</div>
+					<div class="col-sm-4">
+						<span>
+							<h4 class="news">News</h4>
+							<img src="assets/news.jpg" alt="" width="100%" />
+						</span>
+					</div>
+					<div class="col-sm-4">
+						<span>
+							<h4 class="facebook">Facebook</h4>
+							<img src="assets/facebook-narrow.jpg" alt="" width="100%" />
+						</span>
+					</div>
+				</div>
+            </div>
+	</div>
+	<!-- end widget block-->
+	
+	<!-- Partners -->
+	<div class="container">
+				  <div class="row">				
+							<div class="col-md-12 carousel slide partner_cards" id="carousel_partners" data-ride="carousel">	  
+								  <div class="carousel-inner">
+									
+									<div class="carousel-item active">
+										<div class="row">
+											<div class="col-md-6">
+												<a href="#"><img src="http://via.placeholder.com/480x281" alt="American Express" /></a>
+											</div>
+											<div class="col-md-6 partner_caro_info">
+												<a href="#" class="partner_name">A welcome drink on AMEX&reg;</a>
+												American Express&reg; Cardmembers are invited to enjoy a complimentary glass of wine, cider, beer, single spirit and mixer or soft drink. Simply show your Card at the welcome desk for your voucher and place your order between 6pm and 7pm. Terms apply.
+												<a href="#" class="tab_link">Find out more</a>
+											</div>
+										</div>
+									</div><!--end carousel item-->
+									
+									<div class="carousel-item">
+										<div class="row">
+											<div class="col-md-6">
+												<a href="#"><img src="http://via.placeholder.com/480x281" alt="Follow The Rabbit" /></a>
+											</div>
+											<div class="col-md-6 partner_caro_info">
+												<a href="#" class="partner_name">Will you follow this rabbit?</a>
+												Or are you going to stare at your screen, answering your emails? Scrolling through your newsfeed? Checking your likes? You can do all that later. Live for the moment, follow the rabbit to unforgettable live music at The O2. So, are you coming?
+												<a href="#" class="tab_link">Find out more</a>
+											</div>
+										</div>
+									</div><!--end carousel item-->
+									
+									<div class="carousel-item">
+										<div class="row">
+											<div class="col-md-6">
+												<a href="#"><img src="http://via.placeholder.com/480x281" alt="Pingit" /></a>
+											</div>
+											<div class="col-md-6 partner_caro_info">
+												<a href="#" class="partner_name">Pingit</a>
+												Pingit lets you pay people and businesses with just a mobile number – no account details, no sort codes, no hassle. You can also request payment from people – so no more IOUs, awkward reminders or remembering who’s paid what for your night out.
+												<a href="#" class="tab_link">Find out more</a>
+											</div>
+										</div>
+									</div><!--end carousel item-->
+									
+									<div class="carousel-item">
+										<div class="row">
+											<div class="col-md-6">
+												<a href="#"><img src="http://via.placeholder.com/480x281" alt="NY-LON" /></a>
+											</div>
+											<div class="col-md-6 partner_caro_info">
+												<a href="#" class="partner_name">Enjoy a first class experience</a>
+												Enjoy the same first-class service you would experience when flying with Virgin Atlantic and Delta Airlines. NY-LON Lounge Bar at The O2 have a wide range of cocktails available, inspired by the transatlantic influences of both New York and London.
+												<a href="#" class="tab_link">Find out more</a>
+											</div>
+										</div>
+									</div><!--end carousel item-->
+									
+									<div class="carousel-item">
+										<div class="row">
+											<div class="col-md-6">
+												<a href="#"><img src="http://via.placeholder.com/480x281" alt="InterContinental" /></a>
+											</div>
+											<div class="col-md-6 partner_caro_info">
+												<a href="#" class="partner_name">Live the InterContinental life</a>
+												The riverside InterContinental London - The O2 hotel stands out in the buzzing Greenwich Peninsula, with 453 luxurious rooms &amp; suites and a state-of-the-art spa. The spectacular view of  the River Thames and Canary Wharf is a consistent theme throughout the hotel.
+												<a href="#" class="tab_link">Find out more</a>
+											</div>
+										</div>
+									</div><!--end carousel item-->
+									
+									<div class="carousel-item">
+										<div class="row">
+											<div class="col-md-6">
+												<a href="#"><img src="http://via.placeholder.com/480x281" alt="StubHub" /></a>
+											</div>
+											<div class="col-md-6 partner_caro_info">
+												<a href="#" class="partner_name">StubHub ticket collection</a>
+												When you buy from StubHub, the official ticket resale marketplace of The O2, you receive downloadable electronic tickets that you can then print at the kiosks located next to All Bar One in the main foyer of The O2.
+												<a href="#" class="tab_link">Find out more</a>
+											</div>
+										</div>
+									</div><!--end carousel item-->
+									
+								  </div><!--end carousel inner-->
+								  
+								  <a class="carousel-control-prev" href="#carousel_partners" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								  </a>
+								  <a class="carousel-control-next" href="#carousel_partners" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								  </a>
+							</div>				
+					
+				</div><!--end row-->
+			</div>
+			<!-- end partners -->
+	
+	<div class="container-fluid map_box">
+		<div id="map">My map will go here</div>
+		<div class="mapoverlay">
+			<h3>How to get here</h3>
+			<div class="row">
+				  <div class="col-sm-6">
+					<a href="https://www.theo2.co.uk/visit-us/getting-here/tube" class="span1 link-tube" title="Tube and train">Tube</a>
+				</div>
+				<div class="col-sm-6">
+					<a href="https://www.theo2.co.uk/visit-us/getting-here/bus" class="span1 link-bus" title="Bus">Bus</a>
+				</div>
+				<div class="col-sm-6">
+					<a href="https://www.theo2.co.uk/visit-us/getting-here/river-bus" class="span1 link-river" title="River Bus">River</a>
+				</div>
+				<div class="col-sm-6">
+					<a href="https://www.theo2.co.uk/visit-us/getting-here/taxi" class="span1 link-taxi" title="Taxi">Taxi</a>
+				</div>
+				<div class="col-sm-6">
+					<a href="https://www.theo2.co.uk/visit-us/getting-here/road" class="span1 link-car" title="Road">Road</a>
+				</div>
+				<div class="col-sm-6">
+					<a href="https://www.theo2.co.uk/visit-us/getting-here/taxi-and-uber" class="span1 link-uber" title="Uber and private Hire">Uber</a>
+				</div>
+				<div class="col-sm-6">
+					<a href="https://www.theo2.co.uk/visit-us/getting-here/cycle" class="span1 link-cycle" title="Cycle">Cycle</a>
+				</div>
+				<div class="col-sm-6">
+					<a href="https://www.theo2.co.uk/visit-us/getting-here/cable-car" class="span1 link-air" title="Cable Car">Cablecar</a>
+				</div>
+			</div><!--end row-->
+		</div>
+		<script>
+		function myMap() {
+		  var mapCanvas = document.getElementById("map");
+		  var mapOptions = {
+			center: new google.maps.LatLng(51.503038, 0.003154), zoom: 15
+		  };
+		  var map = new google.maps.Map(mapCanvas, mapOptions);
+		}
+		</script>
+		<!-- Google Maps JS -->
+		<script src="https://maps.googleapis.com/maps/api/js?callback=myMap&sensor=SET_TO_TRUE_OR_FALSE"></script>
+	</div>
+	<!-- end transportation info-->
+    
+    <div class="footer breakout">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="https://www.theo2.co.uk/assets/production/a1512200b2/images/logo-nobg.png?1453394416" width="100" />
+				</div><!--end col-->
+				<div class="col-md-2">
+					<h4>About Us</h4>
+					<ul>
+					  <li><a href="#">About AEG</a></li>
+					  <li><a href="#">Our Partners</a></li>
+					  <li><a href="#">Social Responsibility</a></li>
+					  <li><a href="#">Careers</a></li>
+					</ul>
+				</div><!--end col-->
+				<div class="col-md-2">
+					<h4>Legal</h4>
+					<ul>
+					  <li><a href="#">Privacy</a></li>
+					  <li><a href="#">Cookie Policy</a></li>
+					  <li><a href="#">Terms &amp; Conditions</a></li>
+					  <li><a href="#">Modern Slavery Statement</a></li>
+					</ul>
+				</div><!--end col-->
+				<div class="col-md-2">
+					<h4>Quick Links</h4>
+					<ul>
+					  <li><a href="#">Box Office</a></li>
+					  <li><a href="#">Accessibility</a></li>
+					  <li><a href="#">Maps</a></li>
+					  <li><a href="#">Site Map</a></li>
+					  <li><a href="#">Site Accessibility</a></li>
+					  <li><a href="#">Security</a></li>
+					</ul>
+				</div><!--end col-->
+				<div class="col-md-2">
+					<h4>Help</h4>
+					<ul>
+					  <li><a href="#">FAQs</a></li>
+					  <li><a href="#">Press Office</a></li>
+					  <li><a href="#">Contact Us</a></li>
+					</ul>
+				</div><!--end col-->
+			</div><!--end row-->
+			<div class="row copyright">
+				<div class="col-md-12">
+					&copy; AEG <a href="http://www.aegworldwide.com">www.aegworldwide.com</a>
+				</div><!--end col 12-->
+			</div><!--end row-->
+		</div><!--end container fixed-->
+    </div><!--end footer-->
+	
+	<!-- full width carousel-->
+    <div id="carousel_partner_icons" class="carousel slide partners" data-ride="carousel">	  
+          <div class="carousel-inner">
+            <div class="carousel-item active container">
+			<div class="row">
+				<div class="col-md-1">
+					<a href="http://www.tickets.amazon.co.uk" target="_blank"><img src="assets/PartnerLogos_white/amazon-tickets_logo_fullcolor-b898b508c6_white.png" alt="Amazon Tickets" /></a>
+				</div>
+				<div class="col-md-1">
+					<a href="https://www.ihg.com/intercontinental/hotels/gb/en/london/lonic/hoteldetail" target="_blank"><img src="assets/PartnerLogos_white/InterContinental_Hotel_Logo-424a922e43_white.png" alt="Intercontinental Hotel" /></a>
+				</div>
+				<div class="col-md-1">
+					<a href="http://www.BACARDÍ.com" target="_blank"><img src="assets/PartnerLogos_white/Bacardi_Primary_Logo_2016_web2-0696f7c5c3_white.png" alt="Bacardi" /></a>
+				</div>
+				<div class="col-md-1">
+					<a href="http://www.lansonchampagne.com" target="_blank"><img src="assets/PartnerLogos_white/Logo_Lanson-9439620d64_white.png" alt="Champagne Lanson" /></a>
+				</div>
+				<div class="col-md-1">
+					<a href="https://www.theo2.co.uk/www.greateranglia.co.uk" target="_blank"><img src="assets/PartnerLogos_white/Greater-Anglia-Logo-web-fc00c4223b_white.png" alt="Greater Anglia" /></a>
+				</div>
+				<div class="col-md-1">
+					<a href="http://www.ravensbourne.ac.uk" target="_blank"><img src="assets/PartnerLogos_white/raven_new_white.png" alt="Ravensbourne" /></a>
+				</div>
+				<div class="col-md-1">
+						<a href="http://www.sky.com" target="_blank"><img src="assets/PartnerLogos_white/Sky-Logo-Sep-2017-78b885981c_white.png" alt="SKY" /></a>
+					</div>
+					<div class="col-md-1">
+						<a href="Stubhub" target="_blank"><img src="assets/PartnerLogos_white/StubHub_Logo_May2016-cc8f9b4509_white.png" alt="StubHub" /></a>
+					</div>
+					<div class="col-md-1">
+						<a href="https://www.americanexpress.com/uk/" target="_blank"><img src="assets/PartnerLogos_white/partner-amex_white.png" alt="American Express" /></a>
+					</div>
+					<div class="col-md-1">
+						<a href="http://www.axs.com/" target="_blank"><img src="assets/PartnerLogos_white/partner-axs_white.png" alt="AXS" /></a>
+					</div>
+					<div class="col-md-1">
+						<a href="http://www.barclays.co.uk/" target="_blank"><img src="assets/PartnerLogos_white/partner-barclays_white.png" alt="Barclays" /></a>
+					</div>
+					<div class="col-md-1">
+						<a href="http://www.inbev.co.uk/" target="_blank"><img src="assets/PartnerLogos_white/ABInBev_Logo_Digital_RGB-f7b3472e2c_white.png" alt="InBev" /></a>
+					</div>
+				</div><!--end row-->
+            </div><!--end carousel item-->
+			
+            <div class="carousel-item container">
+				<div class="row">
+					<div class="col-md-1">
+						<a href="https://logicvapes.co.uk/" target="_blank"><img src="assets/PartnerLogos_white/LOGIC-LOGO-Vapes-118db49db8_white.png" alt="Logic Vapes" /></a>
+					</div>
+					<div class="col-md-1">
+						<a href="http://www.moms-uk.com" target="_blank"><img src="assets/PartnerLogos_white/partner-mom_white.png" alt="Moms" /></a>
+					</div>
+					<div class="col-md-1">
+						<a href="http://www.ny-lon.co.uk/" target="_blank"><img src="assets/PartnerLogos_white/partner-delta_white.png" alt="Delta" /></a>
+					</div>
+					<div class="col-md-1">
+						<a href="http://www.visitgreenwich.org.uk/" target="_blank"><img src="assets/PartnerLogos_white/VG_icon_logo_stacked_black-resized_white.png" alt="Visit Greenwich" /></a>
+					</div>
+					<div class="col-md-1">
+						<a href="http://www.nestle.co.uk/" target="_blank"><img src="assets/PartnerLogos_white/partner-nestle_white.png" alt="Nestle" /></a>
+					</div>
+					<div class="col-md-1">
+						<a href="http://www.nissan.co.uk/" target="_blank"><img src="assets/PartnerLogos_white/partner-nissan_white.png" alt="Nissan" /></a>
+					</div>
+					<div class="col-md-1">
+						<a href="http://www.coca-cola.co.uk/" target="_blank"><img src="assets/PartnerLogos_white/partner-cocacola_white.png" alt="Coca Cola" /></a>
+					</div>
+					<div class="col-md-1">
+						<a href="http://www.heineken.co.uk/" target="_blank"><img src="assets/PartnerLogos_white/partner-heineken_white.png" alt="Heineken" /></a>
+					</div>
+					<div class="col-md-1">
+						<a href="http://www.dhl.co.uk/en.html" target="_blank"><img src="assets/PartnerLogos_white/DHL_logo-cf8801b830_white.png" alt="DHL" /></a>
+					</div>
+					<div class="col-md-1">
+						<a href="http://www.o2.co.uk/" target="_blank"><img src="assets/PartnerLogos_white/partner-o2_white.png" alt="O2" /></a>
+					</div>
+				</div><!--end row-->
+            </div><!--end carousel item-->
+			
+          </div><!--end carousel inner-->
+		  
+          <a class="carousel-control-prev" href="#carousel_partner_icons" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel_partner_icons" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+    </div>
+	<!-- end full width carousel-->
+
+    <!-- Scripts required by Bootstrap: jQuery, Popper.js, Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

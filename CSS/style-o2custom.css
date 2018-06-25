@@ -363,9 +363,19 @@ h1, h2, h3, h4, h5, a.nav-link, a.dropdown-item {font-family: 'Frutiger', arial,
 	padding: 3px 15px;
     margin: 25px 0px 0px 5px;
 }
+#hidden a.tab_link:hover {
+	border: 2px solid #fff;
+}
 #hidden a.tab_book {
 	padding: 5px 18px;
     margin: 25px 0px 0px 5px;
+	color: #fff;
+}
+#hidden a.tab_book:hover {
+	padding: 5px 18px;
+    margin: 25px 0px 0px 5px;
+	color: #39c;
+	background: #fff;
 }
 #hidden a.fb_signup img {
 	padding-top: 0px;
